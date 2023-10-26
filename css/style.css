@@ -85,3 +85,11 @@
     background-color: #5D2374;
     color: #D8D9DA;
 }
+
+/* step title */
+.progress_steps_titles{
+    width: 700px;
+}
+.step_title{
+    padding: 0 !important;
+}
