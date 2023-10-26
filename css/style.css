@@ -1,5 +1,49 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/* steps */
+.progress_Steps_container {
+    border: 1px solid #5D2374;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: -webkit-center;
+}
+
+.progress_Steps {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step {
+    height: auto;
+    padding: 0 !important;
+    width: 10.666667% !important;
+}
+
+.step_body {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding: 4px;
+    border: 4px solid #5D2374;
+}
+
+.next_step {
+    border: 4px solid #D8D9DA !important;
+}
+
+.checked_step {
+    background-color: #5D2374;
+}
+
+
