@@ -46,4 +46,22 @@
     background-color: #5D2374;
 }
 
+/* lines */
+.progress_line {
+    height: 5px;
+    border: 5px;
+    padding: 0 !important;
+    width: 15.333333% !important;
+}
 
+.progress_line_body {
+    height: 5px;
+    border-radius: 10px;
+}
+
+.Unchecked_line {
+    background-color: #D8D9DA;
+}
+.checked_line {
+    background-color: #5D2374;
+}
