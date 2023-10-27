@@ -31,3 +31,28 @@ nextStepElem.addEventListener("click", () => {
       }
     }
   });
+  // reset steps & lines
+resetBtn.addEventListener("click", () => {
+    stepLocatin = -1;
+   
+    stepsElem.forEach((stepElem) => {
+      stepElem.classList.remove("checked_step");
+      stepElem.classList.add("next_step");
+    });
+  
+    progressLineEelms.forEach((lineElem) => {
+      lineElem.classList.remove("checked_line");
+      lineElem.classList.add("Unchecked_line");
+    });
+  
+    statusIconsElem.forEach((iconElem) => {
+      iconElem.classList.remove("check_icon");
+      iconElem.classList.add("next_step_icon");
+    });
+  // first step classes
+    stepsElem[0].classList.remove("next_step");
+    stepsElem[0].classList.add("current_step");
+  
+    statusIconsElem[0].classList.remove("next_step_icon");
+    statusIconsElem[0].classList.add("current_step_icon");
+  });
